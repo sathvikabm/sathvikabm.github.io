@@ -1,7 +1,2 @@
-# Group 1
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
-# Group 2
+# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Allow: /

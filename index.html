@@ -1,874 +1,262 @@
-<!-- <!DOCTYPE html> -->
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v8=qAJ44G5Bm7">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v8=qAJ44G5Bm7">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v8=qAJ44G5Bm7" color="#feb062">
+    <!-- <link rel="mask-icon" href="/safari-pinned-tab.svg?v8=qAJ44G5Bm7"> -->
+    <link rel="shortcut icon" href="/favicon.ico?v8=qAJ44G5Bm7">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#212121" />
+    <meta name="Parth Doshi" content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v8=qAJ44G5Bm7">
+    <meta property="og:title" content="Parth Doshi" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://parthketandoshi.github.io" />
+    <meta property="og:image" content="https://parthketandoshi.github.io/apple-touch-icon.png" />
+    <link rel="preload" href="/static/media/Montserrat-Regular.ee653992.ttf" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="/static/media/Agustina.21f233e1.woff" as="font" type="font/woff" crossorigin>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135618960-2"></script>
+    <script>
+        function gtag() {
+            dataLayer.push(arguments)
+        }
+        window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-135618960-2")
+    </script>
+    <script src="https://kit.fontawesome.com/53ac6a60a3.js" crossorigin="anonymous"></script>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.13.0/css/all.min.css">
+    <title>Parth Doshi</title>
+    <link href="/static/css/main.8b91ff39.chunk.css" rel="stylesheet">
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
-  <!-- End Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157578488-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  <!-- Materialize - Compiled and minified CSS-->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  <!-- Font Awesome Icon - CSS-->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-  <!-- Custom Styles-->
-  <link rel="stylesheet" href="/assets/css/style.css" />
-  <title>Sathvika Bhagyalakshmi Mahesh | Master's Student</title>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+        gtag('config', 'UA-157578488-1');
+    </script>
 
-    gtag('config', 'UA-126939217-2');
-  </script>
 
-  <!-- Open Graph-->
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Sathvika Bhagyalakshmi Mahesh | Master's Student" />
-  <meta property="og:description" content="Software Developer" />
-  <meta property="og:url" content="https://sathvikabm.github.io/" />
-  <meta property="og:site_name" content="Sathvika Bhagyalakshmi Mahesh | Master's Student" />
-  <meta property="article:publisher" content="https://sathvikabm.github.io/" />
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta name="robots" content="index, follow" />
-  <!-- Google Site Verification for indexing -->
-  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
 </head>
 
-<body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
-  
-  <!-- Navigation Menu-->
-  <!-- Nav class 1 -->
-  <nav class="hide-on-small-only">
-    <ul class="side-nav fixed section table-of-contents">
+<body><noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+        ! function (c) {
+            function e(e) {
+                for (var t, r, n = e[0], o = e[1], a = e[2], u = 0, i = []; u < n.length; u++) r = n[u], Object
+                    .prototype.hasOwnProperty.call(d, r) && d[r] && i.push(d[r][0]), d[r] = 0;
+                for (t in o) Object.prototype.hasOwnProperty.call(o, t) && (c[t] = o[t]);
+                for (h && h(e); i.length;) i.shift()();
+                return s.push.apply(s, a || []), l()
+            }
 
-      <li class="logo">
-        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
-          class="brand-logo grey-blue-text">
-          <img src="/assets/img/my-passport-photo-square.jpg" class="circle img-responsive profile-pic" alt="avatar">
-        </a>
-      </li>
+            function l() {
+                for (var e, t = 0; t < s.length; t++) {
+                    for (var r = s[t], n = !0, o = 1; o < r.length; o++) {
+                        var a = r[o];
+                        0 !== d[a] && (n = !1)
+                    }
+                    n && (s.splice(t--, 1), e = p(p.s = r[0]))
+                }
+                return e
+            }
+            var r = {},
+                f = {
+                    1: 0
+                },
+                d = {
+                    1: 0
+                },
+                s = [];
 
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
+            function p(e) {
+                if (r[e]) return r[e].exports;
+                var t = r[e] = {
+                    i: e,
+                    l: !1,
+                    exports: {}
+                };
+                return c[e].call(t.exports, t, t.exports, p), t.l = !0, t.exports
+            }
+            p.e = function (s) {
+                var e = [];
+                f[s] ? e.push(f[s]) : 0 !== f[s] && {
+                    3: 1,
+                    4: 1
+                } [s] && e.push(f[s] = new Promise(function (e, n) {
+                    for (var t = "static/css/" + ({} [s] || s) + "." + {
+                            3: "c7b31c95",
+                            4: "127076e7"
+                        } [s] + ".chunk.css", o = p.p + t, r = document.getElementsByTagName(
+                            "link"), a = 0; a < r.length; a++) {
+                        var u = (c = r[a]).getAttribute("data-href") || c.getAttribute("href");
+                        if ("stylesheet" === c.rel && (u === t || u === o)) return e()
+                    }
+                    var i = document.getElementsByTagName("style");
+                    for (a = 0; a < i.length; a++) {
+                        var c;
+                        if ((u = (c = i[a]).getAttribute("data-href")) === t || u === o) return e()
+                    }
+                    var l = document.createElement("link");
+                    l.rel = "stylesheet", l.type = "text/css", l.onload = e, l.onerror = function (e) {
+                        var t = e && e.target && e.target.src || o,
+                            r = new Error("Loading CSS chunk " + s + " failed.\n(" + t + ")");
+                        r.code = "CSS_CHUNK_LOAD_FAILED", r.request = t, delete f[s], l.parentNode
+                            .removeChild(l), n(r)
+                    }, l.href = o, document.getElementsByTagName("head")[0].appendChild(l)
+                }).then(function () {
+                    f[s] = 0
+                }));
+                var r = d[s];
+                if (0 !== r)
+                    if (r) e.push(r[2]);
+                    else {
+                        var t = new Promise(function (e, t) {
+                            r = d[s] = [e, t]
+                        });
+                        e.push(r[2] = t);
+                        var n, o = document.createElement("script");
+                        o.charset = "utf-8", o.timeout = 120, p.nc && o.setAttribute("nonce", p.nc), o.src = p.p +
+                            "static/js/" + ({} [s] || s) + "." + {
+                                3: "8cd2dd2d",
+                                4: "eec498dd"
+                            } [s] + ".chunk.js";
+                        var a = new Error;
+                        n = function (e) {
+                            o.onerror = o.onload = null, clearTimeout(u);
+                            var t = d[s];
+                            if (0 !== t) {
+                                if (t) {
+                                    var r = e && ("load" === e.type ? "missing" : e.type),
+                                        n = e && e.target && e.target.src;
+                                    a.message = "Loading chunk " + s + " failed.\n(" + r + ": " + n + ")", a
+                                        .name = "ChunkLoadError", a.type = r, a.request = n, t[1](a)
+                                }
+                                d[s] = void 0
+                            }
+                        };
+                        var u = setTimeout(function () {
+                            n({
+                                type: "timeout",
+                                target: o
+                            })
+                        }, 12e4);
+                        o.onerror = o.onload = n, document.head.appendChild(o)
+                    } return Promise.all(e)
+            }, p.m = c, p.c = r, p.d = function (e, t, r) {
+                p.o(e, t) || Object.defineProperty(e, t, {
+                    enumerable: !0,
+                    get: r
+                })
+            }, p.r = function (e) {
+                "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {
+                    value: "Module"
+                }), Object.defineProperty(e, "__esModule", {
+                    value: !0
+                })
+            }, p.t = function (t, e) {
+                if (1 & e && (t = p(t)), 8 & e) return t;
+                if (4 & e && "object" == typeof t && t && t.__esModule) return t;
+                var r = Object.create(null);
+                if (p.r(r), Object.defineProperty(r, "default", {
+                        enumerable: !0,
+                        value: t
+                    }), 2 & e && "string" != typeof t)
+                    for (var n in t) p.d(r, n, function (e) {
+                        return t[e]
+                    }.bind(null, n));
+                return r
+            }, p.n = function (e) {
+                var t = e && e.__esModule ? function () {
+                    return e.default
+                } : function () {
+                    return e
+                };
+                return p.d(t, "a", t), t
+            }, p.o = function (e, t) {
+                return Object.prototype.hasOwnProperty.call(e, t)
+            }, p.p = "/", p.oe = function (e) {
+                throw console.error(e), e
+            };
+            var t = this["webpackJsonpparthketandoshi.github.io"] = this["webpackJsonpparthketandoshi.github.io"] || [],
+                n = t.push.bind(t);
+            t.push = e, t = t.slice();
+            for (var o = 0; o < t.length; o++) e(t[o]);
+            var h = n;
+            l()
+        }([])
+    </script>
+    <script src="/static/js/2.713e3819.chunk.js"></script>
+    <script src="/static/js/main.77ddc020.chunk.js"></script>
+    <!-- <div class="social-media-dev"></div> -->
 
-      <li class="bold">
-        <!-- mdi-av-web small
-             mdi-av-my-library-books small-->
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-
-      <li class="bold">
-        <!--
-        ICONS:
-        mdi-action-assessment
-        mdi-social-poll
-        mdi-av-equalizer
-        -->
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-      
-      <li class="bold">
-        <!--
-        ICONS:
-        -->
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Open Sathvika's resume in a new tab" href="https://sathvikabm.github.io/assets/resume/Resume.pdf" target="_blank"
-        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Nav class 2 -->
-  <nav class="hide-on-large only trigger z-depth-1">
-    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
-      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    <div class="name-title">
-      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Sathvika Bhagyalakshmi Mahesh</a><span class="black-text">Masters student</span>
+    <div class="contact-div-main" id="contact" style="padding: 20px 10px;margin: 2rem auto 0;text-align: center;">
+        <div class="contact-info" style="width: 100%;">
+            <div class="contact-header">
+                <h1 class="heading contact-title" style="width: 100%;">Contact</h1>
+                <p class="subTitle contact-subtitle" style="width: 100%;">You can reach out to me at </p>
+                <div class="contact-text-div" style="width: 100%;">
+                    <a class="contact-detail" href="tel:+14708380620">+1(470)838-0620</a><br><br>
+                    <a class="contact-detail-email" style="width: 100%;"
+                        href="mailto:parthketandoshi@gmail.com">parthketandoshi@gmail.com</a>
+                    <p class="subTitle contact-subtitle" style="width: 100%;">
+                        <i class="fas fa-map-marker-alt" style="color: #868e96;"></i>
+                        Atlanta, Georgia, United States
+                    </p>
+                    <div class="social-media-div" style="width: 100%;">
+                        <a href="https://github.com/parthketandoshi" class="icon-button github" target="_blank">
+                            <i class="fab fa-github" aria-hidden="true"></i><span></span></a>
+                        <a href="https://gitlab.com/parthketandoshi" class="icon-button gitlab" target="_blank">
+                            <i class="fab fa-gitlab" aria-hidden="true"></i><span></span></a>
+                        <a href="https://www.linkedin.com/in/parthketandoshi/" class="icon-button linkedin"
+                            target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i><span></span></a>
+                        <a href="mailto:parthketandoshi@gmail.com" class="icon-button google" target="_blank">
+                            <i class="fab fa-google" aria-hidden="true"></i><span></span></a>
+                        <a href="https://www.behance.net/parthketandoshi" class="icon-button behance" target="_blank">
+                            <i class="fab fa-behance" aria-hidden="true"></i><span></span></a>
+                        <a href="https://leetcode.com/parthketandoshi/" class="icon-button leetcode" target="_blank">
+                            <i class="leetcode" aria-hidden="true"><svg fill="#ffffff" width="22px" height="22px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><title>LeetCode icon</title><path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863s.235-1.357.702-1.824l4.319-4.38c.467-.467 1.125-.645 1.837-.645s1.357.195 1.823.662l2.697 2.606c.514.515 1.365.497 1.9-.038.535-.536.553-1.387.039-1.901l-2.609-2.636a5.055 5.055 0 0 0-2.445-1.337l2.467-2.503c.516-.514.498-1.366-.037-1.901-.535-.535-1.387-.552-1.902-.038l-10.1 10.101c-.981.982-1.494 2.337-1.494 3.835 0 1.498.513 2.895 1.494 3.875l4.347 4.361c.981.979 2.337 1.452 3.834 1.452s2.853-.512 3.835-1.494l2.609-2.637c.514-.514.496-1.365-.039-1.9s-1.386-.553-1.899-.039zM20.811 13.01H10.666c-.702 0-1.27.604-1.27 1.346s.568 1.346 1.27 1.346h10.145c.701 0 1.27-.604 1.27-1.346s-.569-1.346-1.27-1.346z"/></svg></i><span></span></a>
+                        <a href="https://dev.to/parthketandoshi" class="icon-button devto" target="_blank">
+                            <i class="fab fa-dev" aria-hidden="true"></i><span></span></a>
+                        <a href="https://twitter.com/ParthDoshi97" class="icon-button twitter" target="_blank">
+                            <i class="fab fa-twitter" aria-hidden="true"></i><span></span></a>
+                        <a href="https://www.facebook.com/parthdoshi97" class="icon-button facebook" target="_blank">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i><span></span></a>
+                        <a href="https://www.instagram.com/parth_k_d/" class="icon-button instagram" target="_blank">
+                            <i class="fab fa-instagram" aria-hidden="true"></i><span></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-pic">
+            <!-- <p style="text-align: center;"> -->
+            <img src="static/media/picture.jpeg" alt="Parth Doshi Hacktoberfest Pic"
+                style="border-radius: 50%;border: .25rem solid #868e96;width: 250px;">
+            <!-- </p> -->
+        </div>
     </div>
-  </nav>
-
-  <!-- Nav class 3 -->
-  <nav class="hide-on-large only">
-    <ul id="slide-out" class="side-nav">
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Open Varad's Resume in a new tab"
-          href="https://drive.google.com/drive/folders/19GQDalkTWGLb94s28A17Zm0fp_pCvTYe" target="_blank"
-          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Main Content-->
-  <main>
-    <!-- First Section: Heading lines and image -->
-    <section id="intro" class="section scrollspy full-height">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="col-md-9">
-          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
-            <div class="caption">
-              <h2>Hi, I'm <span class="teal">Sathvika</span></h2>
-              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#e38f22"></span></h5>
-              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
-              <h5>Hard working, Systematic, Singer, Basketball Player, Drives me to connect technology and society</h5>
-            </div>
-            <div class="social">
-              <a href="https://www.linkedin.com/in/sathvika-b-m-14aa02132/" target="_blank">
-                <button class="icon-btn linkedin">
-                  <i class="fa fa-linkedin"></i>
-                </button>
-              </a>
-              <a href="https://github.com/sathvikabm/" target="_blank">
-                <button class="icon-btn github">
-                  <i class="fa fa-github"></i>
-                </button>
-              </a>
-            </div>
-            <div class='buttons'>
-              <a href="#about" class="readme">Read More</a>
-              <a href="#contact" class="contactme">Contact Me</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Second Section: About -->
-    <section id="about" class="section scrollspy">
-      <h3 class="page-title white-text teal">About</h3>
-      <div class="container flow-text">
-        <p>
-          I am a Computer Science Grad Student at New York University.
-
-          I have worked on technologies like Python, Flask, Docker, MySQL, PostgreSQL, MongoDB, HTML5, CSS, Java, C++
-
-          I am looking for Full time Opportunities in 2024, as I would graduate in May 2024.
+    <div class="footer-div">
+        <p class="footer-text">Remixed with <img alt="❤️" draggable="false"
+                src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/2764.png"
+                style="height: 1em; width: 1em; margin: 0px 0.05em 0px 0.1em; vertical-align: -0.1em;animation: beat 2s infinite;">
+            &nbsp;by Parth Doshi
         </p>
-        <p>
-          <ul>
-            <li><b>Languages:</b> Python, Java, C, C++, C# </li>
-            <li><b>Databases:</b> MySQL, PostgreSQL, MongoDB</li>
-            <li><b>Frameworks:</b> Flask, Node.js, Bootstrap</li>
-            <li><b>Tools & Technologies:</b> Git, Docker, JIRA</li>
-          </ul>
-
-        </p>
-          
-        <!-- <p>
-          
-          Detail-oriented Software Developer with professional experience in Backend Development, Machine Learning, Computer Vision. I am adept in Python, Django, Flask, SQL, Machine Learning, Computer Vision.           
-        </p> -->
-        <p>
-          Looking for an opportunity to work Software Engineering domain, which provides professional development.
-        </p>
-      </div>
-    </section>
-
-
-    <!-- Third Section: Experience -->
-    <section id="experience" class="section scrollspy">
-      <h3 class="page-title white-text teal">Experience</h3>
-      <div class="container">
-
-        <!-- Latest Experience -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.apptio.com/" target="_blank"><img alt="Apptio logo"
-                    src="/assets/img/exp-apptio-logo.png" class="responsive-img center-block" /></a>
-              </div>
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.apptio.com/" target="_blank"
-                      class="teal-text hoverline">Apptio</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Software Development Intern</div>
-            <ul>
-              <li>
-                Blah
-              </li>
-              <li>
-                Blaaaaah
-              </li>
-              <li>
-                <b>Tools:</b> Python
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>Feb 2022 - Mar 2022 | Bangalore, India</span>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <!-- change links -->
-                <a href="https://www.microsoft.com/en-us/" target="_blank"><img alt="Microsoft logo"
-                    src="/assets/img/exp-microsoft-logo-1.webp" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.microsoft.com/en-us/" target="_blank"
-                      class="teal-text hoverline">Microsoft</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Software Engineering Intern</div>
-            <ul>
-              <li>
-               Blah blash
-              </li>
-              <li>
-                lilili
-              </li>
-              <li>lililili</li>
-              <li>lililil</li>
-              <li>
-                <b>Tools:</b> Python
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>May 2021 - Aug 2021 | Hyderabad, India</span>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.microsoft.com/en-us/" target="_blank"><img alt="Microsoft logo"
-                    src="/assets/img/exp-microsoft-logo-1.webp" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.microsoft.com/en-us/" target="_blank"
-                      class="teal-text hoverline">Microsoft</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Engage Mentorship Program</div>
-            <ul>
-              <li>
-                Blaaahhhhhh
-              </li>
-              <li>
-                Blaaahahh
-              </li>
-              <li>
-                Blaaah
-              </li>
-              <li>Blaaah</li>
-              <li>
-                <b>Tools:</b> Python
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>May 2021 - July 2021  | Bangalore, India</span>
-          </div>
-        </div>
-
-        <!-- Experience 2 -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <img alt="Mtag logo" src="/assets/img/exp-mtag-logo-250x250.jpg" class="responsive-img center-block" />
-
-              </div>
-
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="#experience" class="teal-text hoverline">Indian Institute of Science</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Research Intern</div>
-            <ul>
-              <li>
-                Blaah
-              </li>
-              <li>
-                Blaah
-              </li>
-              <li>
-                <b>Tools:</b> Python
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>April 2020 - Dec 2020 | Bangalore, India</span>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Fourth Section: Projects -->
-    <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Projects</h3>
-      <div class="container">
-        <div class="row">
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/project-music-player.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Music Player Web-App<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A music streaming web app based on Django
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Django, HTML, CSS, Bootstrap, SQLite, AWS S3, Heroku</li>
-                  <li>Register/login to the web app(with OAuth-based Google Sign-In).</li>
-                  <li>Search and filter songs based on language and singer.</li>
-                  <li>Create multiple playlists and add/remove songs to/from playlist.</li>
-                  <li>Scroll through recently played/viewed songs.</li>
-
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://github.com/sathvikabm" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/sathvikabm"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="quiz app" src="/assets/img/bg.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">1<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                 BAAAAAA
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Django, HTML, CSS, Bootstrap, SQLite, Heroku</li>
-                  <li>Register/login to the web app(with OAuth-based Google Sign-In).</li>
-                  <li>Play Quiz and see the leaderboard</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://github.com/sathvikabm/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/sathvikabm/"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Flask Project -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of web app" src="/assets/img/bg.jpg"
-                style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">2222222<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A simple
-                </p>
-              </div>
-              <div class="card-reveal">
-
-                <span class="card-title teal-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> HTML</li>
-                  <li>BLAAAH</li>
-                  <li>Blaah</li>
-
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit Blog website" href="https://github.com/sathvikabm/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/sathvikabm/"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- VQA -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/bg.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">33333333<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Blaah
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title teal-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Blllaaaaa.</li>
-                  <li>Blaaah</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project"
-                    href="https://github.com/sathvikabm" target="_blank"
-                    data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Video Summarizer -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/computer-vision-v2-04.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">44444<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Blaaaaahhhh
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Blaah</li>
-                  <li>Blaah</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/sathvikabm/"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Image Generator -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/bg.jpg" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">555555<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  AAAAAYYYYYY
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>oH NOOOOO</li>
-                  <li>Ohh YeAh????</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/sathvikabm/"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Head Counting System -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/bg.jpg" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">5555<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  OOOOHHHHHHHH
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>really???</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project"
-                    href="https://github.com/sathvikabm" target="_blank"
-                    data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- ************* -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Fifth Section: Skills -->
-    <section id="skills" class="section scrollspy">
-      <h3 class="page-title white-text teal">Skills</h3>
-      <div class="container">
-        <!-- Languages and Databases -->
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Languages and Databases</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/html5-300x300.jpg" class="responsive-img" />HTML5
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/css3-300x300.jpg" class="responsive-img" />CSS3
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/mysql-logo-1-300x300.jpg" class="responsive-img" />MySQL
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/postgresql-logo.png" class="responsive-img" />PostgreSQL
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/shell-logo-1-300x300.jpg" class="responsive-img" />Shell Scripting
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Libraries</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/numpy-logo-1-500x500.jpg" class="responsive-img" />NumPy
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/pandas-logo-2-500x500.jpg" class="responsive-img" />Pandas
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/opencv-logo-1-500x500.jpg" class="responsive-img" />OpenCV
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/sk-learn-logo-1-500x500.jpg" class="responsive-img" />scikit-learn
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/matplotlib-logo-1-500x500.jpg" class="responsive-img" />matplotlib
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Frameworks -->
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Frameworks</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/django-logo.webp" class="responsive-img" />Django
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/flask-logo.png" class="responsive-img" />Flask
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/bootstrap.png" class="responsive-img" />Bootstrap
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/keras-logo.png" class="responsive-img" />Keras
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/tensorflow-logo-1.png" class="responsive-img" />TensorFlow
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/pytorch-logo.png" class="responsive-img" />PyTorch
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Other -->
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Other</h4>
-            <div class="row text-center">
-
-
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/git.png" class="responsive-img" />Git
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/aws.png" class="responsive-img" />AWS
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/heroku.png" class="responsive-img" />Heroku
-              </div>
-            </div>
-          </div>
-        </div>
-
-    <!-- Seventh Section: Education -->
-    <section id="education" class="section scrollspy">
-      <h3 class="page-title white-text teal">Education</h3>
-      <div class="container">
-        <div class="row">
-          <!-- Education -->
-          <div class="col s12 m6 l6">
-            <div class="card">
-              <div class="card-content">
-                <p>
-                  <span class="card-title"><a href="https://cs.nyu.edu/home/master/prospective_mscs.html" target="_blank" class="teal-text hoverline">New York University, Courant</a></span>
-                </p>
-                <p class="brown-text">New York, USA</p>
-                <p>
-                  <b>Degree: </b>Master of Science in Computer Science      
-                  <br>
-                </p>
-
-                <ul>
-                  <p>
-                    <b>Relevant Courseworks:</b>
-                    <li>Operating Systems</li>
-                    <li>Databases</li>
-                    <li>DevOps</li>
-                    <li>Fundamental Algorithms</li>
-                    <li>Programming Languages</li>
-                  <ul>
-
-                  </ul>
-                  </p>
-
-                </ul>
-              </div>
-            </div>
-
-            
-          </div>
-          <div class="col s12 m6 l6">
-            <div class="card">
-              <div class="card-content">
-                <p>
-                  <span class="card-title"><a href="https://www.nitk.ac.in/" target="_blank" class="teal-text hoverline">National Institute of Technology, Karnataka</a></span>
-                </p>
-                <p class="brown-text">Karnataka, India</p>
-                <p>
-                  <b>Degree: </b>Bachelor of Technology
-                  <br>
-                </p>
-
-                <ul>
-                  <p>
-                    <b>Relevant Courseworks:</b>
-                  <ul>
-                    <li>Data Structure Algorithm</li>
-                    <li>Databases</li>
-                    <li>Web Applications</li>
-                    <li>Parallel Computing</li>
-                    <li>Data Analysis</li>
-                  </ul>
-                  </p>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Eight Section: Contact -->
-    <section id="contact" class="section scrollspy full-height">
-      <h3 class="page-title white-text teal">Contact</h3>
-      <div class="container">
-        <p>
-          <a aria-label="Call Sathvika" data-position="top" data-tooltip="Call Sathvika"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
-              aria-label="Call Sathvika">+19298665248</a></a>
-        </p>
-        <p>
-          <a aria-label="Email Sathvika" href="mailto:sathvikabm.21@gmail.com" target="_blank" data-position="top"
-            data-tooltip="Email Sathvika" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-envelope"></i><a aria-label="Email Sathvika" href="mailto:sathvikabm.21@gmail.com"
-              class="hoverline">sathvikabm.21@gmail.com</a></a>
-        </p>
-        <p>
-          <a aria-label="View Varad on GitHub" href="https://github.com/sathvikabm" target="_blank"
-            data-position="top" data-tooltip="View Sathvika on GitHub"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
-              aria-label="Varad on Github" href="https://github.com/sathvikabm" class="hoverline"
-              target="_blank">github.com/sathvikabm</a></a>
-        </p>
-        <p>
-          <a aria-label="View Sathvika on LinkedIn" href="https://www.linkedin.com/in/sathvika-b-m-14aa02132/" target="_blank"
-            data-position="top" data-tooltip="View Varad on LinkedIn"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-linkedin"></i><a aria-label="Varad on LinkedIn" href="https://www.linkedin.com/in/sathvika-b-m-14aa02132/"
-              class="hoverline" target="_blank">linkedin.com/in/sathvika-b-m-14aa02132/</a></a>
-        </p>
-      </div>
-    </section>
-  </main>
-
-  <!-- typed.js -->
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script type="text/javascript">
-    var typed = new Typed('.typing',{
-      strings: ["Pythonist", "Developer", "Fast Learner"],
-      loop: true,
-      typeSpeed: 80,
-      backSpeed: 40
-    });
-  </script>
-
-
-  <!-- jQuery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-  <!-- Materialize - Compiled and minified JavaScript-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
-  <script>
-    // Materialize - Initializers
-    $(document).ready(function () {
-      $(".scrollspy").scrollSpy()
-      // Initialize collapse button
-      $(".button-collapse").sideNav({
-        menuWidth: 190, // Default is 240
-        edge: "left", // Choose the horizontal origin
-        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-      })
-    })
-  </script>
+        <p class="footer-text">Theme by <a target="_blank"
+                href="https://github.com/saadpasta/developerFolio">developerFolio</a></p>
+    </div>
+    <!-- <p style="text-align: center;">
+        <img src="static/media/picture.jpeg" alt="Parth Doshi" style="border-radius: 50%;border: .5rem solid #feb602;width: 350px;">
+    </p> -->
 </body>
 
 </html>
