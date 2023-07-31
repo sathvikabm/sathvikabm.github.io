@@ -1,4 +1,4 @@
-(this["webpackJsonpparthketandoshi.github.io"] = this["webpackJsonpparthketandoshi.github.io"] || []).push([
+(this["webpackJsonpsathvikabm.github.io"] = this["webpackJsonpsathvikabm.github.io"] || []).push([
     [2],
     [function (e, t, n) {
         "use strict";

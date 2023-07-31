@@ -1,4 +1,4 @@
-(this["webpackJsonpparthketandoshi.github.io"] = this["webpackJsonpparthketandoshi.github.io"] || []).push([
+(this["webpackJsonpsathvikabm.github.io"] = this["webpackJsonpsathvikabm.github.io"] || []).push([
     [0],
     [, , , , function (e, t, a) {
         "use strict";
@@ -24,38 +24,35 @@
         var n = a(19),
             l = a.n(n),
             i = {
-                username: "Parth Doshi",
-                title: "Hey, I'm Parth!",
-                subTitle: l()("A Computer Engineer with a Passion for Programming, a Knack for Problem Solving and an Aptitude for Learning, I am curious about various technologies and driven to explore them.",[l()("\ud83d\udd38 Education:"), "Master of Science, Information Systems","Georgia State Univerisity, J Mack Robinson College of Business, Current GPA-3.7", "Bachelor of Engineering, Computer Engineering", "University of Mumbai, Overall GPA-3.0"]),
-                resumeLink: "https://parthketandoshi.github.io/resume/ParthDoshi.pdf"
+                username: "Sathvika B M",
+                title: "Hey, I'm Sathvika!",
+                subTitle: l()("I am astounded by the real-world problem solving ability, practical aspect which drives me to connect technology and society. I look forward to enhancing my knowledge, gain hands-on experience and contribute effectively to the same. Interests in DevOps, Database, Systems, Networks, Cybersecurity.",[l()("\ud83d\udd38 Education:"), "Master of Science, Computer Science","New York Univerisity, Courant", "Bachelor of Technology", "National Institute of Technology, Karnataka"])
             },
             r = {
-                github: "https://github.com/parthketandoshi",
-                gmail: "parthketandoshi@gmail.com",
-                linkedin: "https://www.linkedin.com/in/parthketandoshi/",
-                behance: "https://www.behance.net/parthketandoshi",
-                devto: "https://dev.to/parthketandoshi",
-                twitter: "https://twitter.com/ParthDoshi97",
-                facebook: "https://www.facebook.com/parthdoshi97",
-                instagram: "https://www.instagram.com/parth_k_d/"
+                github: "https://github.com/sathvikabm",
+                gmail: "sathvikabm.21@gmail.com",
+                linkedin: "https://www.linkedin.com/in/sathvika-b-m-14aa02132/"
             },
             c = {
                 title: "Skills",
                 subTitle: "",
-                skills: [l()("\ud83d\udd38 Trainings:"), "Python App Development", "Android App Development", "iOS App Development"],
+                skills: [l()("\ud83d\udd38 Trainings:"), "DevOps", "Databases", "Web Development"],
                 softwareSkills: [{
-                    skillName: "C",
-                    fontAwesomeClassname: "fas fa-code"
-                }, {
-                    skillName: "Java",
-                    fontAwesomeClassname: "fab fa-java"
-                }, {
                     skillName: "Python",
                     fontAwesomeClassname: "fab fa-python"
                 }, {
-                    skillName: "Angular",
-                    fontAwesomeClassname: "fab fa-angular"
+                    skillName: "C++",
+                    fontAwesomeClassname: "fab fa-cuttlefish"
                 }, {
+                    skillName: "C",
+                    fontAwesomeClassname: "fab fa-cuttlefish"
+                }, {
+                    skillName: "Java",
+                    fontAwesomeClassname: "fab fa-java"
+                },{
+                    skillName: "C#",
+                    fontAwesomeClassname: "fab fa-python"
+                },{
                     skillName: "HTML",
                     fontAwesomeClassname: "fab fa-html5"
                 }, {
@@ -71,22 +68,22 @@
                     skillName: "Android",
                     fontAwesomeClassname: "fab fa-android"
                 }, {
-                    skillName: "iOS",
+                    skillName: "C#",
                     fontAwesomeClassname: "fab fa-app-store-ios"
                 }, {
-                    skillName: "PWA",
+                    skillName: "aaa",
                     fontAwesomeClassname: "fas fa-mobile-alt"
                 }, {
-                    skillName: "Firebase",
+                    skillName: "bbb",
                     fontAwesomeClassname: "fas fa-fire"
                 }, {
-                    skillName: "AppleScript",
+                    skillName: "ccc",
                     fontAwesomeClassname: "fab fa-apple"
                 }, {
-                    skillName: "Graphics",
+                    skillName: "dddd",
                     fontAwesomeClassname: "fas fa-bezier-curve"
                 }, {
-                    skillName: "IoT",
+                    skillName: "ee",
                     fontAwesomeClassname: "fas fa-sitemap"
                 }, {
                     skillName: "Raspberry Pi",
@@ -287,8 +284,8 @@
             f = {
                 title: "Contact",
                 subtitle: "You can reach out to me at ",
-                number: "+14708380620",
-                email_address: "parthketandoshi@gmail.com"
+                number: "+1(929)-866-5248",
+                email_address: "sathvikabm.21@gmail.com"
             }
     }, , , , , , , , , , , , , , , , , , , function (e, t, a) {
         "use strict";

@@ -1,4 +1,4 @@
-(this["webpackJsonpparthketandoshi.github.io"] = this["webpackJsonpparthketandoshi.github.io"] || []).push([
+(this["webpackJsonpsathvikabm.github.io"] = this["webpackJsonpsathvikabm.github.io"] || []).push([
     [3], {
         109: function (e, a, t) {},
         111: function (e, a, t) {
