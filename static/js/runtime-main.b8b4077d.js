@@ -132,7 +132,7 @@
     }, i.p = "/", i.oe = function (e) {
         throw console.error(e), e
     };
-    var c = this["webpackJsonpsathvikabm.github.io"] = this["webpackJsonpsathvikabm.github.io"] || [],
+    var c = this["webpackJsonpparthketandoshi.github.io"] = this["webpackJsonpparthketandoshi.github.io"] || [],
         l = c.push.bind(c);
     c.push = t, c = c.slice();
     for (var s = 0; s < c.length; s++) t(c[s]);
