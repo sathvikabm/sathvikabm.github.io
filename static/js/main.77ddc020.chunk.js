@@ -31,7 +31,6 @@
             },
             r = {
                 github: "https://github.com/parthketandoshi",
-                gitlab: "https://gitlab.com/parthketandoshi",
                 gmail: "parthketandoshi@gmail.com",
                 linkedin: "https://www.linkedin.com/in/parthketandoshi/",
                 behance: "https://www.behance.net/parthketandoshi",
@@ -98,9 +97,6 @@
                 }, {
                     skillName: "GitHub",
                     fontAwesomeClassname: "fab fa-github"
-                }, {
-                    skillName: "GitLab",
-                    fontAwesomeClassname: "fab fa-gitlab"
                 }, {
                     skillName: "BitBucket",
                     fontAwesomeClassname: "fab fa-bitbucket"
@@ -205,23 +201,6 @@
                 }, {
                     image: "static/media/201920.png",
                     link: "cocurricular/201920.pdf"
-                }, {
-                    image: a(68),
-                    link: "https://parthketandoshi.github.io/certifications/Kaggle.pdf"
-                }, {
-                    image: a(69),
-                    link: "https://parthketandoshi.github.io/certifications/Coursera.pdf"
-                }, {
-                    image: "static/media/datacamp.png",
-                    link: "https://parthketandoshi.github.io/certifications/Datacamp.pdf"
-                }, 
-                {
-                    image: "static/media/udemy.png",
-                    link: "https://parthketandoshi.github.io/certifications/Udemy.pdf"
-                }, 
-                {
-                    image: "static/media/linkedinlearning.png",
-                    link: "https://parthketandoshi.github.io/certifications/LinkedIn_Learning.pdf"
                 }
             ]
             },
@@ -266,13 +245,13 @@
                     }]
                 }, {
                     title: "Yodais & Jom Channel",
-                    subtitle: "For a Freelance Project, we created Yodais which is a Platform for Streaming with aspects of a Social Networking Website. We made use of Visual Studio Code, GitLab, HTML, CSS, Bootstrap, Laravel and MySQL. I have worked on the Front-end of the Project.",
+                    subtitle: "Description here",
                     footerLink: [{
-                        name: "Yodais GitLab Repo",
-                        url: "https://gitlab.com/vivekbgawande/yodais"
+                        name: "head1",
+                        url: "linkhere"
                     }, {
-                        name: "Jom Channel GitLab Repo",
-                        url: "https://gitlab.com/vivekbgawande/jom-channel"
+                        name: "head2",
+                        url: "linkhere"
                     }]
                 }]
             },
@@ -329,12 +308,6 @@
                 target: "_blank"
             }, l.a.createElement("i", {
                 className: "fab fa-github"
-            }), l.a.createElement("span", null)) : null, i.h.gitlab ? l.a.createElement("a", {
-                href: i.h.gitlab,
-                className: "icon-button gitlab",
-                target: "_blank"
-            }, l.a.createElement("i", {
-                className: "fab fa-gitlab"
             }), l.a.createElement("span", null)) : null, i.h.linkedin ? l.a.createElement("a", {
                 href: i.h.linkedin,
                 className: "icon-button linkedin",

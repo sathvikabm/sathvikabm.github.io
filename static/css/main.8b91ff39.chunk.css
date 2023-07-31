@@ -433,10 +433,6 @@ body {
     background-color: #333
 }
 
-.gitlab i {
-    background-color: #fca326
-}
-
 .google i {
     background-color: #ea4335
 }
@@ -473,7 +469,6 @@ body {
 .devto i:hover,
 .facebook i:hover,
 .github i:hover,
-.gitlab i:hover,
 .google i:hover,
 .instagram i:hover,
 .leetcode i:hover,
